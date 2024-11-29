@@ -3,8 +3,9 @@ import { persist } from 'zustand/middleware';
 import { User, LoginCredentials } from '../types';
 import { io } from 'socket.io-client';
 
-const API_URL = 'http://192.168.1.140:3000/api';
-const socket = io('http://192.168.1.140:3000');
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
+const WS_URL = import.meta.env.VITE_WS_URL || 'http://localhost:3000';
+const socket = io(WS_URL);
 
 interface AuthState {
   user: User | null;

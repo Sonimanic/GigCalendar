@@ -1,7 +1,7 @@
 import { Gig, GigCommitment } from '../types';
 
-// Use the full IP address for network access
-const API_URL = 'http://192.168.1.140:3000/api';
+// Use environment variable for API URL, fallback to local development URL
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
 
 export const saveGigs = async (gig: Gig) => {
   try {

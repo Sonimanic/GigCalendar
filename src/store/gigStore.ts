@@ -3,7 +3,8 @@ import { Gig, GigCommitment } from '../types';
 import { loadGigs, loadCommitments, saveGigs, saveCommitments, deleteGig as apiDeleteGig, updateGig as apiUpdateGig } from '../utils/dataManager';
 import { io } from 'socket.io-client';
 
-const socket = io('http://192.168.1.140:3000');
+const WS_URL = import.meta.env.VITE_WS_URL || 'http://localhost:3000';
+const socket = io(WS_URL);
 
 interface GigState {
   gigs: Gig[];
