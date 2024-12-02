@@ -1,0 +1,52 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "name": "Brian VanPortfleet",
+      "email": "bvanportfleet@gmail.com",
+      "phone": "555-0101",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Dan Premo",
+      "email": "Dpremo@gmail.com",
+      "phone": "555-0102",
+      "password": "member123",
+      "role": "member"
+    },
+    {
+      "id": "3",
+      "name": "Everett Domier",
+      "email": "EDomir@gmail.com",
+      "phone": "555-0103",
+      "password": "member123",
+      "role": "member"
+    },
+    {
+      "id": "4",
+      "name": "Nick Baldes",
+      "email": "Nbaldes@gmail.com",
+      "phone": "555-0104",
+      "password": "member123",
+      "role": "member"
+    },
+    {
+      "id": "5",
+      "name": "Doug Golden",
+      "email": "dougagolden@gmail.com",
+      "phone": "(616) 437-7334",
+      "password": "DG1234",
+      "role": "member"
+    },
+    {
+      "id": "6",
+      "name": "Stacy Hill",
+      "email": "Abc@gmail.com",
+      "phone": "555-0106",
+      "password": "member123",
+      "role": "member"
+    }
+  ]
+}

@@ -1,3 +1,68 @@
 {
-  "gigs": []
+  "gigs": [
+    {
+      "title": "The Bob",
+      "date": "2024-11-15T20:00",
+      "venue": "20 Monroe Ave NW",
+      "address": "Grand Rapids",
+      "description": "Parking $20",
+      "payment": "3191",
+      "requirements": "High-energy rock performance",
+      "id": "64e28912-c0e2-4632-8231-cb45538fd22a",
+      "status": "confirmed",
+      "assignedMembers": [
+        "2",
+        "4",
+        "3"
+      ]
+    },
+    {
+      "title": "Shots",
+      "date": "2024-12-14T21:00",
+      "venue": "Shots",
+      "address": "\"5760 W River Dr NE",
+      "description": "Belmont",
+      "payment": null,
+      "requirements": "Best Crowd",
+      "id": "3e0547c4-3c6b-45b3-938f-524d08b015f0",
+      "status": "confirmed",
+      "assignedMembers": [
+        "4",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "title": "Cabin",
+      "date": "2024-12-21T21:00",
+      "venue": "The Log Cabin",
+      "address": "\"2401 Division Ave S",
+      "description": "Grand Rapids",
+      "payment": null,
+      "requirements": "Crazy crowd",
+      "id": "39b416f7-df28-488d-a50f-7b1deda0c49c",
+      "status": "confirmed",
+      "assignedMembers": [
+        "3",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "title": "The BOB",
+      "date": "2024-12-28T21:00",
+      "venue": "The BOB",
+      "address": "\"20 Monroe Ave NW",
+      "description": "Grand Rapids",
+      "payment": null,
+      "requirements": "Post Chrismas show",
+      "id": "b8ff20d9-a217-4e42-af19-fb38f4dda956",
+      "status": "confirmed",
+      "assignedMembers": [
+        "4",
+        "3",
+        "6"
+      ]
+    }
+  ]
 }

@@ -1,3 +1,46 @@
 {
-  "commitments": []
+  "commitments": [
+    {
+      "gigId": "3e0547c4-3c6b-45b3-938f-524d08b015f0",
+      "userId": "1",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "gigId": "39b416f7-df28-488d-a50f-7b1deda0c49c",
+      "userId": "1",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "gigId": "b8ff20d9-a217-4e42-af19-fb38f4dda956",
+      "userId": "1",
+      "status": "declined",
+      "notes": ""
+    },
+    {
+      "gigId": "64e28912-c0e2-4632-8231-cb45538fd22a",
+      "userId": "4",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "gigId": "3e0547c4-3c6b-45b3-938f-524d08b015f0",
+      "userId": "4",
+      "status": "confirmed",
+      "notes": ""
+    },
+    {
+      "gigId": "39b416f7-df28-488d-a50f-7b1deda0c49c",
+      "userId": "5",
+      "status": "declined",
+      "notes": ""
+    },
+    {
+      "gigId": "64e28912-c0e2-4632-8231-cb45538fd22a",
+      "userId": "1",
+      "status": "declined",
+      "notes": ""
+    }
+  ]
 }
